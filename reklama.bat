@@ -1,4 +1,3 @@
-@echo off
 cd Desktop
 
 curl https://i.imgur.com/g2bOBiW.jpg -o reklama.bmp
