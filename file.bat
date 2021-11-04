@@ -1,7 +1,7 @@
 @echo off
 cd %userprofile%
 
-curl https://i.imgur.com/g2bOBiW.jpg -o reklama.bmp
+curl https://i.imgur.com/JTq8Lu9.jpg -o reklama.bmp
 
 reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d %userprofile%\reklama.bmp /f
 
