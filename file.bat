@@ -1,9 +1,10 @@
-@echo off
+
 cd %userprofile%
 
-curl https://i.imgur.com/JTq8Lu9.jpg -o reklama.bmp
+echo lol it worked > temp.txt
 
-reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d %userprofile%\reklama.bmp /f
+temp.txt
 
-RUNDLL32.EXE user32.dll, UpdatePerUserSystemParameters
-RUNDLL32.EXE user32.dll, UpdatePerUserSystemParameters
+timeout 5
+
+del temp.txt
