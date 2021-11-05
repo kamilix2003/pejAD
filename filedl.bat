@@ -9,5 +9,3 @@ timeout 1
 start temp.bat
  
 timeout 1 
-
-del temp.bat
