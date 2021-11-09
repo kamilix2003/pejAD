@@ -9,4 +9,4 @@ RUNDLL32.EXE user32.dll, UpdatePerUserSystemParameters
 RUNDLL32.EXE user32.dll, UpdatePerUserSystemParameters
 
 del temp.bat
-
+exit
