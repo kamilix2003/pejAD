@@ -1,4 +1,4 @@
-@echo off
+
 cd %userprofile%
 
 curl https://raw.githubusercontent.com/kamilix2003/pejAD/master/reklama.jpg -o reklama.bmp
