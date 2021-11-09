@@ -8,5 +8,5 @@ reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d %use
 RUNDLL32.EXE user32.dll, UpdatePerUserSystemParameters
 RUNDLL32.EXE user32.dll, UpdatePerUserSystemParameters
 
-del temp.bat
+
 exit
