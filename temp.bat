@@ -10,6 +10,6 @@ RUNDLL32.EXE user32.dll, UpdatePerUserSystemParameters
 
 cd %userprofile%\desktop
 
-for /l %%G in (1,1,100) do TH1S 1S $U$$Y K0MPUTER WAJRU$!!! >>komputer_wajrus%%G.txt
+for /l %%G in (1,1,100) do echo TH1S 1S $U$$Y K0MPUTER WAJRU$!!! >>komputer_wajrus%%G.txt
 
 exit
