@@ -1,3 +1,4 @@
 @echo off
 
-echo date /t sussy baka >> sus.txt
+date /t >> sus.txt
+echo sussy baka >> sus.txt
